@@ -1,0 +1,33 @@
+:toc: macro
+:toclevels: 5
+:toc-placement!:
+
+= csoftz-multi-sb-starter
+
+V2025.1.0
+
+A Spring Boot WebFlux (Reactive Web) application that includes demo *_Spring Boot Starter Libraries_* to build Web Controllers.
+
+toc::[]
+
+== Dependency Libraries
+
+The following table indicates the tracked components needed for this project (notice that many of them may be not
+listed here).
+
+.Components
+[%header,cols="10%, 20%, 70%"]
+|===
+||Component|Version
+|1|JDK|21
+|2|Spring Boot|3.4.1
+|3|Kotlin|1.9.25
+|===
+
+== References
+
+=== Code Coverage
+* https://medium.com/@truongbui95/jacoco-code-coverage-with-spring-boot-835af8debc68[JaCoCo Code Coverage with Spring Boot^]
+
+=== AssertJ
+* https://www.baeldung.com/assertj-exception-assertion[AssertJ Exception Assertions^]
