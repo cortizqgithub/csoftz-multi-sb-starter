@@ -8,7 +8,45 @@ V2025.1.0
 
 A Spring Boot WebFlux (Reactive Web) application that includes demo *_Spring Boot Starter Libraries_* to build Web Controllers.
 
+This application is reactive, It uses *Spring WebFlux* module.
+
+[CAUTION]
+====
+The application uses custom-made `Spring Boot Starters`
+
+They are included following the definition below in the `pom.xml` as a template.
+
+[source,xml]
+----
+<properties>
+    <mktrs-jps-reactive-spring-boot-starter.version>2025.1.0</mktrs-jps-reactive-spring-boot-starter.version>
+</properties><1>
+----
+<1> Define the version number for the starter.
+
+[source,xml]
+----
+<dependency>
+    <groupId>com.themusketeers</groupId>
+    <artifactId>mktrs-jps-spring-boot-starter</artifactId>
+    <version>${mktrs-jps-reactive-spring-boot-starter.version}</version>
+</dependency>
+----
+
+This is not available in *Maven Central*, but you can find the source code at https://github.com/TheMuskeeters/mktrs-jps-reactive-spring-boot-starter[mktrs-jps-reactive-spring-boot-starter]
+and install it in the *Local Maven Repository*.
+====
+
 toc::[]
+== Custom Made Spring Boot Starters Used
+
+.Spring Boot Starters
+[%header,cols="10%, 20%, 20%, 50%"]
+|===
+||Starter|Version|URL
+|1|JPS Reactive|2025.1.0|https://github.com/TheMuskeeters/mktrs-jps-reactive-spring-boot-starter[mktrs-jps-reactive-spring-boot-starter]
+|1|User Service Reactive|2025.1.0|https://github.com/cortizqgithub/csoftz-user-svc-reactive-spring-boot-starter[csoftz-user-svc-reactive-spring-boot-starter]
+|===
 
 == Dependency Libraries
 
